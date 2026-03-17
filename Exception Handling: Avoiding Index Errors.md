@@ -11,8 +11,20 @@ To write a Python program that handles an **IndexError** when trying to access a
 3. Print the result based on whether the index access succeeds or fails.
 
 ## 🧾 Program
-Add code here
+
+# Reg.No: 212222210020
+# Name: Prithisha S
+
+try:
+    lst = [1, 2, 3]
+    print(lst[5])
+except IndexError:
+    print("Index Error Occurred")
 
 ## Output
 
+Index Error Occurred
+
 ## Result
+
+The programs were implemented successfully and the outputs were verified.
