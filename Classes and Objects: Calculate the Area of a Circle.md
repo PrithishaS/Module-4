@@ -12,8 +12,23 @@ To write a Python program that calculates the **area of a circle** based on the 
 
 ## 🧾 Program
 
-Add code here
+# Reg.No: 212222210020
+# Name: Prithisha S
+
+class Circle:
+    def area(self, r):
+        return 3.14 * r * r
+
+c = Circle()
+radius = float(input("Enter radius: "))
+
+print("Area of circle:", c.area(radius))
 
 ## Output
 
+Enter radius: 5
+Area of circle: 78.5
+
 ## Result
+
+The programs were implemented successfully and the outputs were verified.
